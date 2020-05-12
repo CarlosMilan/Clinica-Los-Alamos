@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: white;
+    min-height: 80px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: #28a745;
+}
+
+.logotipo {
+    min-height: 50px;
+    max-height: 80px;
+}
+
+.navbar-toggler {
+    font-size: 40px;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+#banner {
+    background-image: url('../img/1.jpg');
+    background-size: cover;
+    padding-top: 60px;
+    min-height: 700px;
+    vertical-align: middle;
+}
+
+.contenido {
+    padding: 15px;
+    width: 60%;
+    height: 100%;
+    border: 1px solid #D5D8DC;
+    background-color: rgba(255, 255, 255, 0.75);
+    margin-left: auto;
+    margin-top: 100px;
+    border-radius: 12px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.contenido h1 {
+    width: 100%;
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+.contenido p {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.contenido a {
+    margin-top: 30px;
+}
+
+.about {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    height: 80px;
+    background-color: #28a745;
+    box-shadow: 0 -2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.campo-texto {
+    border: 1px solid #28a745;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .contenido {
+        width: 100%;
+        margin: auto;
+    }
+    .contenido h1 {
+        font-size: 28px;
+    }
+    .contenido p {
+        font-size: 18px;
+    }
+}
